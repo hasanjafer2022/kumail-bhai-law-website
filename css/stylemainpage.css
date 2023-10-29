@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* navbar */
+ul{
+    list-style: none;
+}
+.active{
+    color: #fc036b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+body , html{
+    overflow-x: hidden;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+margin: 0 30px;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(/img/397240-lucknow-bench.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.menu-btn{
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner */
+h1{
+    font-size: 50px;
+}
+
+.banner {
+    height: 80vh;
+    background-position: center;
+    background-image: url(/img/4th\ waqf\ matter.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+
+.banner-highlights {
+    padding: 70px 0;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* footer */
+.footer {
+    width: 90%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #49497e;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+
+}

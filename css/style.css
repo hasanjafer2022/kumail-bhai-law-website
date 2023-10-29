@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+ul {
+    list-style: none;
+}
+
+body,
+html {
+    overflow-x: hidden;
+
+}
+body{
+    background-color: rgb(85, 92, 90);
+    }
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-link li {
+    margin: 0 40px;
+    font-size: 20px;
+    
+}
+
+/*pay online wala button  */
+.btn {
+    padding: 10px 25px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    width: 150px;
+    font-size: 20px;
+    height: 46px;
+    margin-top: 35px;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(/img/397240-lucknow-bench.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 66px;
+}
+
+.line {
+    width: 380px;
+    height: 4px;
+    background: #fc036b;
+    /* margin: 15px auto; */
+    border-radius: 5px;
+    margin: 15px 0px 15px 180px;
+   
+}
+.header-btn{
+    padding: 8px 20px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    width: 50px;
+    font-size: 20px;
+    height: 46px;
+    top: 35px;
+    position: relative;
+    
+}
+
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* practice areas  */
+
+.practice-heading {
+    font-size: 55px;
+    text-align: center;
+    background: #fc036b;
+}
+
+.container {
+   
+    display: grid;
+    height: 1150px;
+    width: 1535px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 12px;
+    column-gap: 12px;
+    margin: 0 30px;
+    row-gap: 12px;
+    column-gap: 12px;
+    /* background-color: aquamarine; */
+}
+
+.item {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(46,40,39,0.9977240896358543) 50%);
+    width: 300px;
+    height: 520px;
+    padding: 2px 10px;
+    border-radius: 50px 40px;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+
+/* serial no */
+.heading-up-no {
+    font-size: 40px;
+   
+}
+
+
+/* headings */
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* learn more in items */
+a {
+    margin-left: 100px;
+    color: rgb(11, 59, 214);
+}
+
+
+
+
+
+/* about img */
+
+.about-img{
+    margin-left: 300px;
+    
+    /* margin-top: 100px; */
+
+
+
+}
+
+.p-name{
+    margin: 10px 0 0 10px;
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+    margin-left: 100px;
+    /* margin-top: 100px; */
+   
+}
+p{
+    margin-left: 130px;
+    
+} 
+
+/*about form attorney*/
+.box {
+    position: relative;
+    width: 370px;
+    height: 450px;
+    background: #1c1c1c;
+    border-radius: 50px 5px;
+    margin-left: 600px;
+    
+    /* overflow: hidden; */
+}
+
+form {
+    position: absolute;
+    inset: 2px;
+    border-radius: 50px 5px;
+    background: #645f61;
+     z-index:10;
+    padding: 30px 30px;
+    flex-direction: column;
+}
+
+
+h2 {
+    color: #45f3ff;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.inputBox {
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+}
+
+.inputBox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 10;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #45f3ff;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 90px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    background: linear-gradient(90deg, #45f3ff, #d9138a);
+    opacity: 0.8;
+} 
+
+.inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    pointer-events: none;
+    color: #0a090a;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span{
+    color: #45f3ff;
+    transform: translateX(-10px) translateY(-30px);
+    font-size: 0.75em;
+} 
+.inputBox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #45f3ff;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+}
+.inputBox input:valid ~ i,
+.inputBox input:focus ~ i{
+    height: 44px;
+    
+}
+/* about attorney ke baare m haii yha */
+
+.container-attorney{
+    display:inline-flex;
+}
+.p-name{
+    color: whitesmoke;
+}
+.about-attorney p{
+    color: white;
+}
+
+
+
+ /* Floating Social Icons Design  */
+
+
+ .icons{
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+}
+.icons ul{
+    padding: initial;
+}
+.icons ul li{
+   height: 40px;
+   width: 40px;
+   list-style-type: none;
+   padding-left:12px ;
+   padding-top: 6px;
+   margin-top: 5px;
+   color: #fff;
+  
+} 
+.facebook{
+    background: #3b5998;
+}
+.instagram{
+    background:#E4405F;
+}
+.twitter{
+    background: #007bb5;
+}
+.linkedin{
+    background: #007bb5;
+}
+.icons ul li:hover{
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s;
+}
+    
+
+
+/* address maps */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #49497e;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+
+}
